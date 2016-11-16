@@ -5,7 +5,7 @@ using namespace std;
 class Implementor
 {
 public:
-	virtual void implementation() = 0;
+	virtual void implementation() = NULL;
 };
 
 class ConcreteImplementorA : public Implementor
